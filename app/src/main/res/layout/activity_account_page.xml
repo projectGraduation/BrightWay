@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E7F7FC"
+    android:background="#EBFFFD"
     tools:context=".AccountPage">
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_height="78dp"
         android:text="Courses"
         android:textColor="#FFFFFF"
-        android:background="#A0D5E5"
+        android:background="#8EC6BE"
         tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="358dp" />
 
@@ -23,7 +23,7 @@
         android:layout_height="78dp"
         android:text="Reports"
         android:textColor="#FFFFFF"
-        android:background="#A0D5E5"
+        android:background="#8EC6BE"
         tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="449dp" />
 
@@ -33,7 +33,7 @@
         android:layout_height="78dp"
         android:text="Instructors profile"
         android:textColor="#FFFFFF"
-        android:background="#A0D5E5"
+        android:background="#8EC6BE"
         tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="540dp" />
 
@@ -42,34 +42,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name:"
-        android:textColor="#258EAE"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="240dp" />
+        android:textColor="#2E796F"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="228dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ID:"
-        android:textColor="#258EAE"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="273dp" />
+        android:textColor="#2E796F"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="263dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email:"
-        android:textColor="#258EAE"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="302dp" />
+        android:textColor="#2E796F"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="47dp"
+        android:layout_width="104dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="105dp"
         tools:srcCompat="@tools:sample/avatars[5]" />
 
 
