@@ -10,8 +10,18 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
-    }
-}
+
+    DatabaseReference databaseRef=FirebaseDatabase.getInstance()
+            .getReference();
+
+  databaseRef.addValueEventListener(new ValueEventListener() {
+        @Override
+        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+            String data = dataSnapshot.child("NAME").getValue(String.class);
+            textview.setText(data);
+        }
+
+        @Override
+        public void onCancelled(@NonNull DatabaseError databaseError);
+
